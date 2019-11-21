@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+int x1,x2,a1,y1,y2,b1;
+    cin>>x1>>x2>>a1>>y1>>y2>>b1;
+    if ((x1<=x2 && x2<=x1+a1)  && (y1<=y2 && y2<=y1+b1) )
+    { cout<<"cross"<<endl;
+    }
+    else{ cout<<"notcross"<<endl;
+}
+    return 0;
+}

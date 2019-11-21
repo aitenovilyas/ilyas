@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){ 
+int n, m3, m2, m1;
+cout << "ENTER NUMBER AS XXX: "<<endl;
+cin >> n;
+ 
+m3 = n % 10;
+m2 = n  / 10 % 10;
+m1 = n / 10 / 10 % 10;
+cout<<m3<<m2<<m1<<endl;
+return 0;
+}

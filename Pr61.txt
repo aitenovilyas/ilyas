@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(){ 
+int n,m4, m3, m2, m1;
+cout << "ENTER NUMBER AS XXX: "<<endl;
+cin >> n;
+ 
+m4 = n % 10;
+m3 = n  / 10 % 10;
+m2 = n / 10 / 10 % 10;
+m1 = n /10 / 10 / 10 % 10;
+if (m1==m2 || m1==m3 || m1==m4 || m2==m3 || m3==m4){
+    cout<<"yes"<<endl;
+    }else {
+        cout<<"no"<<endl;
+        }
+return 0;
+}
